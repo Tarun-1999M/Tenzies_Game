@@ -1,6 +1,6 @@
 # Tenzies_Game
 
-In this project, i implemented Tenzies_Game, where will Roll dice untill all dice are same by freezing the current value between the rolls
+In this project, i implemented Tenzies_Game, where the user will Roll dice untill all dice are same by freezing the current value between the rolls
 
 # Getting Started with Create React App
 
