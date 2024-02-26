@@ -50,11 +50,16 @@ function holdDice(id){
 
 
 function rollDice(){
+  if(!tenzies){
   setDiceArr((oldDice)=>{
     return oldDice.map((dice)=>{
     return dice.isHeld? dice : newValue()
   })
-  })
+  })}
+  else{
+    setTenzies(false)
+    setDiceArr(allNewDice())
+  }
 }
 
 
