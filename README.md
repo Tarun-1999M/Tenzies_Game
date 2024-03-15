@@ -1,77 +1,42 @@
-# Tenzies_Game
+Tenzies Game: A React Dice Roller
 
-In this project, i implemented Tenzies_Game, where the user will Roll dice untill all dice are same by freezing the current value between the rolls
 
-# Getting Started with Create React App
+**Overview**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tenzies is a fun, interactive dice game built using React. The game challenges players to roll ten dice until all dice show the same value. Players can hold a die at its current value to strategize their way to winning. This project showcases the use of React state and effects, custom logic for game mechanics, and third-party library integration for enhancing the user experience.
 
-## Available Scripts
+**Features**
 
-In the project directory, you can run:
+**Dynamic Dice Roll Mechanism:** Utilizes a custom function to generate random values for each dice roll, simulating a real-life dice game experience.
 
-### `npm start`
+**Strategic Gameplay through Dice Holding:** Allows players to "hold" dice between rolls, adding a layer of strategy as they aim to match all dice values.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**React State Management:** Leverages React's useState and useEffect hooks for managing game state, including dice values, game status, and win condition checks.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Victory Celebration with Confetti:** Integrates the react-confetti library to celebrate the player's victory, creating an engaging and rewarding game completion experience.
 
-### `npm test`
+**Reusable Dice Component:** Implements a reusable Dice component, demonstrating efficient component design and prop management in React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Technologies Used**
 
-### `npm run build`
+**React:** Powers the game's user interface and state management, facilitating a smooth and responsive player experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**CSS:** Enhances the game's visual appeal with custom styles, providing a clean and intuitive layout.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**nanoid:** Generates unique identifiers for each dice, ensuring accurate state tracking and manipulation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**react-confetti:** Adds a visually appealing celebration effect upon winning the game, elevating the user's achievement.
 
-### `npm run eject`
+**Conclusion**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The Tenzies game project is a testament to the versatility of React for building interactive web applications. It illustrates practical application of state management, component reuse, and third-party integrations, contributing to a comprehensive web development skill set
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://github.com/Tarun-1999M/Tenzies_Game/assets/153797175/85256e35-c4d7-40be-9456-0958443f62e2)
+![image](https://github.com/Tarun-1999M/Tenzies_Game/assets/153797175/4a7afd4e-8c3d-45b8-9c37-2a697f04b358)
+![image](https://github.com/Tarun-1999M/Tenzies_Game/assets/153797175/7548a9ec-e2c0-45f3-ad42-71bf808d23fd)
+![image](https://github.com/Tarun-1999M/Tenzies_Game/assets/153797175/9443d8ba-4741-4e53-b232-9fc6c3d55b3b)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
 
